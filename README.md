@@ -36,24 +36,7 @@ date. Only real lab exports count. Hand-written placeholder data lives in
 
 The lab build and collection steps are in [docs/LAB_SETUP.md](docs/LAB_SETUP.md).
 
-## What the results will look like
-
-**Illustrative only. These values are made up to show the format and are
-not results from this project.** Real results appear in the generated
-block at the top once lab data is collected.
-
-| ATT&CK ID | Attack runs detected | Evasion runs detected | Benign events flagged |
-|---|---|---|---|
-| T1234.001 (example) | 3/4 | 0/1 | 2/2500 |
-
-How to read a row like that: the rule caught 3 of 4 attack runs in the
-lab, the one evasion attempt (say, a renamed tool) got past it, and 2 of
-2,500 normal events set it off by mistake. The missed run and the evasion
-would both be explained in that rule's "Known blind spots" section.
-
 ## Why I built this
-
-> Draft, to be rewritten in my own words in Phase 4.
 
 I wanted to learn detection engineering the way it is actually done:
 write a rule, run the real attack, look at what the logs show, and find
