@@ -1,6 +1,6 @@
 # Sigma Detection Lab
 
-Sigma detection rules for Windows attack techniques, mapped to MITRE ATT&CK
+This project is dedicated around sigma detection rules for Windows attack techniques, mapped to MITRE ATT&CK
 and tested against logs exported from my own lab. Clone it, run one command,
 and you can see which attacks each rule catches and what normal activity it
 flags by mistake.
