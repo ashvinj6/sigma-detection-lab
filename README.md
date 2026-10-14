@@ -25,8 +25,6 @@ date. Only real lab exports count. Hand-written placeholder data lives in
 
 ## Why I built this
 
-> Draft, to be rewritten in my own words in Phase 4.
-
 I wanted to learn detection engineering the way it is actually done:
 write a rule, run the real attack, look at what the logs show, and find
 out where the rule breaks. Each technique gets a write-up in `docs/`
